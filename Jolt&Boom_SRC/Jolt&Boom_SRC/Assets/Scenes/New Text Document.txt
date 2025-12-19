@@ -1,0 +1,25 @@
+CXX = g++
+
+CXXFLAGS = -Wall - std=c++17
+
+TARGET = myprogram
+
+SRCS = main.cpp math.cpp
+OBJS = $(SRCS::.cpp=.0)
+
+
+all:$(TARGET)
+
+
+$(TARGET): $(OBJS)
+$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS)
+
+main.o: main.cpp main_utils.h
+    $(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS)
+
+clean:
+
+
+
+
+#mingw32-make

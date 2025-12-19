@@ -48,3 +48,11 @@ This prototype is not a complete game and is intended to showcase key mechanics 
 This prototype is intended to demonstrate:
 - Core gameplay loop functionality
 - Physics-based interaction systems
+
+### Access Game and Source Code 
+-	Using Unity 6.2 (60000.2.12f1)
+-	Project Scene directory: project root/Assets/Scenes/ SampleScene.unity
+-	Jolt Overdrive build (One Drive): Jolt Overdrive build
+-	Jolt Overdrive SRC (One Drive): Jolt Overdrive SRC
+-	Github Link:  https://github.com/Conqster/JoltOverdrive
+
